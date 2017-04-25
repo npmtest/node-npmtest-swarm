@@ -1,4 +1,7 @@
-# test coverage for  [swarm (v0.3.25)](http://github.com/gritzko/swarm)  [![npm package](https://img.shields.io/npm/v/npmtest-swarm.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-swarm) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-swarm.svg)](https://travis-ci.org/npmtest/node-npmtest-swarm)
+# npmtest-swarm
+
+#### basic test coverage for  [swarm (v0.3.25)](http://github.com/gritzko/swarm)  [![npm package](https://img.shields.io/npm/v/npmtest-swarm.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-swarm) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-swarm.svg)](https://travis-ci.org/npmtest/node-npmtest-swarm)
+
 #### _reactive data sync lib: replicated model for your web app_
 
 [![NPM](https://nodei.co/npm/swarm.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/swarm)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-swarm/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-swarm/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-swarm/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-swarm/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-swarm/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-swarm/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-swarm/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-swarm/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-swarm/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-swarm/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-swarm/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-swarm/build/coverage.html/index.html)
 
@@ -92,7 +95,8 @@
     "scripts": {
         "test": "make test"
     },
-    "version": "0.3.25"
+    "version": "0.3.25",
+    "bin": {}
 }
 ```
 
